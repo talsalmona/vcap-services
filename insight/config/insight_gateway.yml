@@ -1,0 +1,15 @@
+---
+# cloud_controller_uri: api.vcap.me
+service:
+  name: insight
+  version: "1.0"
+  description: 'Insight for Java'
+  plans: ['free']
+  tags: ['insight', 'java-monitoring']
+host: localhost
+index: 0
+token: "0xdeadbeef"
+log_level: DEBUG
+mbus: nats://localhost:4222
+pid: /var/vcap/sys/run/insight_gateway.pid
+# allow_over_provision: false
