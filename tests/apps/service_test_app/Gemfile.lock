@@ -68,7 +68,7 @@ GEM
       rack (>= 1.0.0)
     tilt (1.2.2)
     uuidtools (2.1.2)
-    yajl-ruby (0.8.2)
+    yajl-ruby (1.4.3)
 
 PLATFORMS
   ruby
